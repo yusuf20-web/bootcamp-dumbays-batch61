@@ -1,0 +1,54 @@
+=========================== LEARN JAVASCRIPT ==========================================
+tipe data:
+1. string = berfungsi untuk menulis suatu kata atau kalimat ("halo, nama saya yusuf"). Dan juga harus menggunakan tanda kutip ("")
+2. number = berfungsi untuk menulis suatu angka atau bilangan, dari mulai bilangan primer, pecahan, serta koma (1,2,3.. 3.14 0.12345dst)
+3. object = berfungsi untuk menulis suatu objek yang nantinya akan di tampung didalam variabel
+4. boolean = berfungsi untuk menulis suatu kondisi, dan hanya terdapat dua kondisi di boolean, yaitu "TRUE(Tepat, Benar)" dan "FALSE(Tidak tepat, Salah)"
+5. array
+
+variabel
+variabel adalah suatu entitas atau wadah untuk menampung suatu value atau isi dari wadah tersebut
+
+cara deklarasi variabel dalam js 
+keyword nama_variabel = isi_variabel
+
+jenis keyword untuk deklarasi ada 2, yaitu:
+1. let = keyword untuk membuat variabel yang nilainya bisa di ubah suatu saat
+2. const = keyword untuk membuat variabel yang nilainya tidak bisa di ubah
+untuk cek jenis tipe data nya bisa menggunakan syntax "typeof" dengan contoh seperti "console.log(typeof(nama_variabel));
+
+contoh eksekusi untuk variabel
+let nama = "Yusuf Firdaus"
+let umur = 24
+let alamat = "Jakarta"
+
+console.log("nama saya adalah " + nama + "umur saya " + umur + "saya tinggal di " + jakarta);
+
+function
+adalah blok code yang bisa dipakai secara berulang-ulang
+
+cara deklarasi function = 
+"keyword nama_function (){
+    //isi dari functionya
+}
+nama_function()"
+
+contoh = "function salam(){
+    console.log(salam)
+}
+salam();
+
+jenis-jenis function = parameter, return
+
+function parameter = isi functionya bisa di ubah ubah suatu saat
+"keyword nama_function (isi_parameter){
+    //isi dari functionya
+}
+nama_function()"
+
+contoh = "function nama(namaSaya){
+    console.log("nama saya sekarang adalah " + namaSaya);
+}
+namaSaya();
+
+=========================== LEARN JAVASCRIPT ==========================================
